@@ -45,7 +45,7 @@ nav {
   z-index: 1;
 }
 .descriptionPlace {
-  background-color: rgba(50, 62, 80, 0.738);
+  background-color: rgba(50, 62, 80, 0.95);
   padding: 10px;
   color: #F6F7FA;
   margin-top: 15%;
@@ -196,8 +196,11 @@ hr {
   background-image: url(images/stevensGym.png);
 }
 .formBox {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 .formInfo {
   padding: 20px;
@@ -208,6 +211,17 @@ hr {
 .formTitle {
   background-color: rgba(0, 0, 0, 0.7);
   font-family: 'Poppins', sans-serif;
+}
+#workoutForm{
+  display: flex;
+  flex-direction: column;
+}
+#workoutForm input{
+  padding: 5px;
+}
+#buttonDiv{
+  display: flex;
+  justify-content: space-around;
 }
 #clickMe {
   border: 2px solid rgb(157, 176, 163);
@@ -338,4 +352,8 @@ input {
 .StevensLogo{
   height: 130px;
   width: 130px;
+}
+
+.formInfo p{
+  font-weight: bold;
 }
