@@ -3,10 +3,10 @@
 var randomWorkout = [];
 var generatedWorkout = [];
 var workoutOptions = [];
-var message10Min = 'Complete each exercise listed below to finish one circuit. Rest as little as necessary, then start the next circuit. Do three total circuits to finish!';
-var message20Min = 'Complete each exercise listed below to finish one circuit. Rest as little as necessary, then start the next circuit. Do three total circuits to finish!';
-var message30Min = 'Complete each exercise listed below to finish one circuit. Rest as little as necessary, then start the next circuit. Do six total circuits to finish!';
-var message40Min = 'Complete each exercise listed below to finish one circuit. Rest as little as necessary, then start the next circuit. Do six total circuits to finish!';
+var message10Min = ''
+var message20Min = ''
+var message30Min = ''
+var message40Min = ''
 var workoutId = ['workoutResults1', 'workoutResults2', 'workoutResults3', 'workoutResults4', 'workoutResults5', 'workoutResults6'];
 var resultsPage = [];
 var user = {
@@ -377,9 +377,9 @@ function bringName() {
   var getName = document.getElementById('showName');
   var appendName = document.createElement('p');
   if (user){
-    appendName.innerText = 'Hey ' + user.name + ', let\'s get this workout started!';
+    appendName.innerText = '';
   }else {
-    appendName.innerText = 'Hey Bro, let\'s get this workout started!';
+    appendName.innerText = '';
   }
   getName.appendChild(appendName);
 };

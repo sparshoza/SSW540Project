@@ -11,14 +11,8 @@
   <body class="formBody">
     <nav>
       <h1 class="mainTitle">Generate Your Workout</h1>
-           <a class = "opacityFix" href = "index.html"><p class = "homeBtn">Home</p></a>
     </nav>
     <div class="formBox">
-      <div class="formTitle">
-        <hr/>
-        <h2 class="formHeader">Answer the following questions for your personalized workout</h2>
-        <hr/>
-      </div>
     <div class="formInfo">
       <form id="workoutForm" action="form.html" method="post">
        <p>Name:
@@ -47,21 +41,13 @@
           <input type="radio" name="type" value="Upper" required>Upper Body
           <input type="radio" name="type" value="Lower" required>Lower Body
       </p>
-      <p>Workout Goals:
-        <br>
-        <input type="checkbox" name="goal" value="basicFitness">Basic Fitness
-        <input type="checkbox" name="goal" value="weightLoss">Weight Loss
-        <input type="checkbox" name="goal" value="muscleGain">Muscle Gain
-        <input type="checkbox" name="goal" value="cardio">Cardio
-        <input type="checkbox" name="goal" value="muscleEndurance">Muscle Endurance
-      </p>
       <p>Do you have access to equipment?
         <input type="radio" name="equipment" value="true" required>Yes
         <input type="radio" name="equipment" value="false" required>No
       </p>
       <div id="buttonDiv">
-        <button id="randomButton" type="submit">Random Workout</button>
-        <input id="clickMe" type="submit" name="submit" value="Get Started!" >
+        <button id="randomButton" type="submit">Random</button>
+        <input id="clickMe" type="submit" name="submit" value="Generate" >
       </div>
       </form>
     </div>
